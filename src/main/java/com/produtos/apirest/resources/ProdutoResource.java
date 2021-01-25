@@ -50,7 +50,7 @@ public class ProdutoResource  {
 	}
 	
 	@PutMapping("/produto")
-	@ApiOperation(value = "Altera um produto")
+	@ApiOperation(value = "Altera um produtoooo)
 	public Produto atualizaProduto(@RequestBody Produto produto) {
 		return produtoRepository.save(produto);
 	}
